@@ -12,12 +12,11 @@
     <header>
       <h1>Product Pick</h1>
     </header>
-    <main>
-      <form>
-        <!-- write your html here-->
-        <!-- try writing out the requirements first-->
-        <input type="text" placeholder="Please enter your name" required />
-        <input type="text" placeholder="Please enter your name" required />
+    <main class="container">
+      <form class="formContainer">
+        <input type="text" placeholder="Enter your name" required />
+        <input type="email" placeholder="Enter your email address" required />
+        <p>Choose color from the list below</p>
         <label for="color1">
           Red
           <input type="radio" name="color" id="color1" value="red" />
@@ -30,11 +29,21 @@
           Green
           <input type="radio" name="color" id="color3" value="green" />
         </label>
+        <p>Delivery Date</p>
+        <input
+          required
+          type="date"
+          name=""
+          id="deliveryDate"
+          min="2021-09-22"
+          max="2021-10-20"
+        />
+        <button type="submit">Submit</button>
       </form>
     </main>
     <footer>
       <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
+      <h2>By Amanuel SOLUTION</h2>
     </footer>
   </body>
 </html>
