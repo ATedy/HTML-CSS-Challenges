@@ -1,8 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+.headerContainer,
+.footerContainer {
+  text-align: center;
+}
+
 /* Main body */
 .container {
   width: 400px;
   height: 400px;
-  background-color: rgb(216, 252, 216);
+  border-radius: 3px;
+  background-color: rgb(170, 227, 241);
   margin: auto;
   /* padding-top: 3em; */
 }
@@ -16,14 +25,13 @@
 }
 /* class for all inputs  */
 .inputField {
-  width: 80%;
-  height: 1.5rem;
+  width: 90%;
+  height: 1.7rem;
   border-radius: 3px;
   margin: 0.5em;
 }
-
 /* submit btn */
 .btnSubmit {
   width: 40%;
-  margin: 0 auto;
+  margin: 1em auto;
 }
