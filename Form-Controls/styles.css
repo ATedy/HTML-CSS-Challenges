@@ -36,3 +36,18 @@
   width: 40%;
   margin: 1em auto;
 }
+
+/* media Queries */
+
+@media (max-width: 500px) {
+  formContainer {
+    width: 100%;
+  }
+  body {
+    font-size: 1.2em;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+  }
+}
