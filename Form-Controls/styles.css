@@ -2,12 +2,19 @@
   width: 400px;
   height: 400px;
   background-color: rgb(216, 252, 216);
-  margin: 1em auto;
-  padding: 1em;
+  margin: auto;
+  /* padding-top: 3em; */
 }
 .formContainer {
   width: 80%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  padding: 2em;
+}
+.inputField {
+  width: 80%;
+  height: 1.5rem;
+  border-radius: 3px;
+  margin: 0.5em;
 }

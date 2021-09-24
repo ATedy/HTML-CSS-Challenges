@@ -14,8 +14,18 @@
     </header>
     <main class="container">
       <form class="formContainer">
-        <input type="text" placeholder="Enter your name" required />
-        <input type="email" placeholder="Enter your email address" required />
+        <input
+          class="inputField"
+          type="text"
+          placeholder="Enter your name"
+          required
+        />
+        <input
+          class="inputField"
+          type="email"
+          placeholder="Enter your email address"
+          required
+        />
         <p>Choose color from the list below</p>
         <label for="color1">
           Red
@@ -32,13 +42,14 @@
         <p>Delivery Date</p>
         <input
           required
+          class="inputField"
           type="date"
           name=""
           id="deliveryDate"
           min="2021-09-22"
           max="2021-10-20"
         />
-        <button type="submit">Submit</button>
+        <button class="btnSubmit" type="submit">Submit</button>
       </form>
     </main>
     <footer>
